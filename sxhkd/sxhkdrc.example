@@ -1,0 +1,10 @@
+# wm independent hotkeys
+# cp sxhkdrc.example to $HOME/.config/sxhkd/sxhkdrc
+
+# konsole program launcher
+super + Return
+    konsole
+
+# firefox program launcher
+super + i
+    firefox 
