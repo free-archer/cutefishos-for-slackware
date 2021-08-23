@@ -1,13 +1,15 @@
 This fork repositories https://gitlab.com/slackernetuk/cutefishde-for-slackware
-Huge thanks to Frank Honolka
+
+Huge thanks to Frank Honolka.
+
 
 This project based on [CuteFishOS](https://cutefishos.com/) &  [Slackware 15 / Current ](https://docs.slackware.com/slackware:current) 
 
 # Differences
 I added new packages:
-cutefish-videoplayer
-cutefish-terminal
-cutefish-screenlocker
+1. cutefish-videoplayer
+2. cutefish-terminal
+3. cutefish-screenlocker
 
 I сhanged build scripts a bit.
 
@@ -37,7 +39,8 @@ $ ./buildbuild-cutefish-only.sh - build only cutefish's packages
 
 Packages is built to a folder "pkg"
 
-install:
+**Installations**
+```
 $ /sbin/upgradepkg --install-new --reinstall ./pkg/*
 or run
 $ install.sh
