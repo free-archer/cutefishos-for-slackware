@@ -4,6 +4,11 @@ CWD=$(pwd)
 OUTPUT=$CWD/pkg
 
 for i in \
+mujs \
+lua \
+libplacebo \
+libass \
+mpv \
 lxqt-build-tools \
 libqtxdg \
 fishui \

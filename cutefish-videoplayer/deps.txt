@@ -1,0 +1,5 @@
+mujs
+lua
+libplacebo
+libass
+mpv

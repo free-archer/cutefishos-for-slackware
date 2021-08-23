@@ -65,7 +65,8 @@ rm -rf $SRCNAM
 git clone $GITSRC
 cd $SRCNAM
 #VERSION=`git describe`
-VERSION=`git describe --always`
+#VERSION=`git describe --always`
+VERSION=`git describe --all --long | cut -d '-' -f 3`
 chown -R root:root .
 find -L . \
  \( -perm 777 -o -perm 775 -o -perm 750 -o -perm 711 -o -perm 555 \
