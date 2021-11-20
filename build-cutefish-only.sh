@@ -24,6 +24,7 @@ cutefish-terminal \
 cutefish-screenlocker \
 cutefish-videoplayer \
 cutefish-sddm-theme \
+cutefish-texteditor \
 ; 
 do
     echo -n "$i" >> $result
@@ -32,4 +33,12 @@ do
     echo " ok" >> $result
     cd ..
 done
-#texteditor
+#cursor-themes
+#https://github.com/cutefishos/appmotor
+#https://github.com/cutefishos/qt-plugins
+#https://github.com/cutefishos/plymouth-theme
+#https://github.com/cutefishos/docs
+
+#26  repositories -5 -3 = 18
+#my 18 packages
+
