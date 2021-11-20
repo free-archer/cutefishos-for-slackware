@@ -25,7 +25,7 @@
 PRGNAM=fishui
 #VERSION=${VERSION:-0.2}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=${TAG:-_archer}
 GITSRC=https://github.com/cutefishos/$PRGNAM.git
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

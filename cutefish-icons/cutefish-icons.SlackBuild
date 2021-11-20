@@ -25,7 +25,7 @@
 PRGNAM=cutefish-icons
 SRCNAM=icons
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=${TAG:-_archer}
 GITSRC=https://github.com/cutefishos/$SRCNAM.git
 
 if [ -z "$ARCH" ]; then

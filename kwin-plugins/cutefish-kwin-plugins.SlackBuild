@@ -24,9 +24,8 @@
 
 PRGNAM=cutefish-kwin-plugins
 SRCNAM=kwin-plugins
-VERSION=${VERSION:-0.1}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=VERSION=${VERSION:-0.1}
 GITSRC=https://github.com/cutefishos/$SRCNAM.git
 
 if [ -z "$ARCH" ]; then

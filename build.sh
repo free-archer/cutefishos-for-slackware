@@ -2,6 +2,9 @@
 
 CWD=$(pwd)
 OUTPUT=$CWD/pkg
+$result=$CWD/result.log
+
+echo $(date) > $result
 
 for i in \
 mujs \
@@ -28,9 +31,14 @@ sxhkd \
 cutefish-terminal \
 cutefish-screenlocker \
 cutefish-videoplayer \
+cutefish-sddm-theme \
 ; 
 do
+    echo -n "$i" >> $result
     cd $i || exit 1
     OUTPUT=$CWD/pkg ./$i.SlackBuild || exit 1
+    echo " ok" >> $result
     cd ..
 done
+
+#texteditor

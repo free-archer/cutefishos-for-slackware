@@ -28,7 +28,7 @@
 PRGNAM="lxqt-build-tools"
 VERSION=${VERSION:-0.8.0}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=${TAG:-_archer}
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in

@@ -25,7 +25,7 @@
 PRGNAM=cutefish-statusbar
 SRCNAM=statusbar
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=${TAG:-_archer}
 GITSRC=https://github.com/cutefishos/$SRCNAM.git
 
 if [ -z "$ARCH" ]; then

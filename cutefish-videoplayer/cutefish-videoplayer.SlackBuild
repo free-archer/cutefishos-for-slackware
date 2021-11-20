@@ -24,9 +24,8 @@
 
 PRGNAM=cutefish-videoplayer
 SRCNAM=videoplayer
-VERSION=${VERSION:-0.1}
 BUILD=${BUILD:-1}
-TAG=${TAG:-_snuk}
+TAG=${TAG:-_archer}
 GITSRC=https://github.com/cutefishos/$SRCNAM.git
 
 if [ -z "$ARCH" ]; then
