@@ -25,6 +25,8 @@ cutefish-screenlocker \
 cutefish-videoplayer \
 cutefish-sddm-theme \
 cutefish-texteditor \
+cutefish-appmotor \
+cutefish-daemon \
 ; 
 do
     echo -n "$i" >> $result
